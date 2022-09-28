@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+.page {    
+    max-width: 1000px;
+    margin: auto;
+  }
+
+.Nikola, .Albert, .Isaac {
+    
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    border-top: 5px solid #0974b3;
+    padding-top: 20px;   
+    background-color: white;   
+}
+
+.Isaac .content {
+    height: 320px;  
+    width: 975px;
+    overflow: auto; 
+}
+
+.Albert, .Nikola  {
+    height: 450px;  
+    width: 465px;
+    overflow: auto;
+    margin-top: 40px; 
+}
+
+.Albert {
+    float: left;
+   
+}
+
+.Nikola  {
+    float: right;
+}
+
+.comment {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Albert a, .Nikola a {
+    padding: 20px;
+}
+
+.content p {
+    margin-top: 20px;
+
+}
+
+h1 {
+    color: #0974b3;
+    padding-left: 20px;
+    font-weight: light; 
+}
+
+h2 {
+    color: #666 ;
+    padding-left: 20px;
+    font-weight: lighter;
+    font-size: large;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Isaac img {
+    width: 160px;
+    float: left;
+    margin: 20px;
+    margin-bottom: 25px;    
+}
+.Albert img, .Nikola img {
+    width: 160px;
+    float: left;
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;    
+}
+
